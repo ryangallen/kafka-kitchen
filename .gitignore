@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+
+# VSCode
+.vscode/
+settings.json
+
+# Docker
+**/data/
+**/logs/
+**/tmp/
+*.pid
+
+# Kafka volumes (if you mount them later)
+kafka-logs/
+zookeeper-logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node-related (if frontend gets added later)
+node_modules/
+
+# Python virtualenv (if used outside container)
+venv/
